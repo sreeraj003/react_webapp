@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.navbar {
+    background-color: #333;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.navbar h3{
+    text-align: center;
+    height:30px;
+    padding: 0;
+    margin: 14px;
+}
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar .logout {
+    float: right;
+    background-color: rgb(170, 10, 10)  ;
+}
+.profile {
+    float: left;
+
+}
+.profile{
+    margin-top: 0;
+}
